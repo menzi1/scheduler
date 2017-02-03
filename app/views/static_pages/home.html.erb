@@ -1,0 +1,25 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | SWADE SCHEDULER</title>
+  </head>
+<div class="center jumbotron">
+  <h1>Welcome to SWADE Scheduler</h1></div>
+
+  
+</div><!DOCTYPE html>
+<html>
+<head>
+
+   <div class="wrapper">
+    <form class="form-signin">       
+      <h2 class="form-signin-heading">Please login</h2>
+      <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit", link_to "Login", 'sessions/new'>Login</button>   
+    </form>
+  </div>

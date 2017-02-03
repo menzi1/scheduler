@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+ <td> <strong>Name:</strong></td>
+  <%= @meeting.name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @meeting.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @meeting.end_time %>
+</p>
+
+<%= link_to 'Edit', edit_meeting_path(@meeting),class: "btn btn-xs btn-primary"%> |
+<%= link_to 'Back', meetings_path,class: "btn btn-xs btn-primary" %>
